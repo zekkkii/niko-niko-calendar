@@ -1,0 +1,83 @@
+.header {
+    padding: 2px 0;
+    background-color: rgb(37, 197, 202);
+    color: whitesmoke;
+    font-style: bold;
+}
+
+.header h1 {
+    margin-left: 50px;
+}
+
+body {
+    background-color: rgb(224, 224, 224);
+}
+
+.main-container {
+    display: flex;
+    padding: 0 35px 0 80px;
+}
+
+.main-container div {
+    width: 50%;
+}
+
+.name label {
+    display: block;
+    margin: 10px 0;
+}
+
+.lname label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type=text] {
+    width: 300px;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    background-color: white;
+    padding: 7px 5px;
+}
+
+.emotions {
+    display: flex;
+    width: 100%;
+}
+
+.emotions div {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.emotions div label {
+    display: block;
+}
+
+textarea {
+    width: 500px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+button[type=submit] {
+    color: whitesmoke;
+    padding: 10px 40px;
+    margin: 15px 0;
+    background-color: rgb(32, 175, 180);
+    border: none;
+}
+
+.info {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info p {
+    font-size: 25px;
+}
