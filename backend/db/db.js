@@ -13,7 +13,8 @@ const { Sequelize } = require('sequelize')
             require: 30000,
             idle: 10000
         },
-    }
+    },{
+        reezeTableName: true
+}
 );
-
 module.exports={db}
